@@ -52,8 +52,6 @@ jobs:
 
         copy wallpaper.bat D:\a\wallpaper.bat
 
-        copy Node.js.lnk C:\Users\Public\Desktop\Node.js.lnk
-
     - name: Membuat Tunnel.
 
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
